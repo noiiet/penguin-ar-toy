@@ -9,10 +9,10 @@
     <!-- AR.js Scene -->
     <a-scene embedded arjs>
       <!-- Marker -->
-      <a-marker preset="custom" type="pattern" url="marker.patt">
+      <a-marker preset="custom" type="pattern" url="https://raw.githubusercontent.com/noiiet/penguin-ar-toy/main/pattern-penguin.png.patt">
         <!-- 3D Penguin Model -->
         <a-entity 
-          gltf-model="penguin.gltf" 
+          gltf-model="https://raw.githubusercontent.com/noiiet/penguin-ar-toy/main/penguin.gltf" 
           scale="0.5 0.5 0.5" 
           position="0 0 0"
           rotation="0 0 0">
@@ -22,5 +22,5 @@
       <!-- Default camera -->
       <a-entity camera></a-entity>
     </a-scene>
-  </body>
+  </body>
 </html>
